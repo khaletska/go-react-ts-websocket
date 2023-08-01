@@ -1,0 +1,21 @@
+.ChatInput {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    margin-bottom: 50px;
+    width: 100%;
+    input {
+        width: 90%;
+        margin: 0 auto;
+        padding: 10px 20px;
+        font-size: 16px;
+        border: none;
+        border-radius: 5px;
+        background-color: lightslategray;
+        box-shadow: 0 5px 15px -5px black;
+    }
+
+    ::placeholder {
+        color: rgba(245, 245, 219, 0.5);
+    }
+}
